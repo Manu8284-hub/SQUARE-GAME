@@ -16,7 +16,7 @@ html, body {
     display: grid;
     grid-template-columns: repeat(2, 200px); /* 2 columns */
     grid-template-rows: repeat(2, 200px); /* 2 rows */
-    gap: 2px; /* Space between boxes */
+    gap: 3px; /* Space between boxes */
 }
 
 .shape {
