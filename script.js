@@ -8,11 +8,17 @@ s1.addEventListener("mouseleave",function(){
 })
 
 let s2= document.getElementById("sq2");
+let clr="green";
 s2.addEventListener("mouseenter",function(){
-    s2.style.backgroundColor="green";
+    if(clr=="green"){
+        s2.style.backgroundColor="green";
+        clr="red";
+    } else{
+        s2.style.backgroundColor="red";
+        clr="green";
+    }
     
 })
 s2.addEventListener("mouseleave",function(){
-    s2.style.backgroundColor="red";
     s2.style.backgroundColor="white";
 })
